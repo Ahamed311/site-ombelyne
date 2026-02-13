@@ -5,6 +5,7 @@ import { useState } from 'react';
 import HeroSection from './components/HeroSection';
 import CardsSection from './components/CardsSection';
 import MessageSection from './components/MessageSection';
+import ValentineGift from './components/ValentineGift';
 import MusicSection from './components/MusicSection';
 import Footer from './components/Footer';
 
@@ -23,6 +24,7 @@ export default function Home() {
         >
           <CardsSection />
           <MessageSection />
+          <ValentineGift />
           <MusicSection />
           <Footer />
         </motion.div>
